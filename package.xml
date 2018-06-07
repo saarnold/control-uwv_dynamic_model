@@ -1,0 +1,27 @@
+<package format="2">
+  <name>uwv_dynamic_model</name>
+  <version>1.0.0</version>
+  <description>Dynamic model for a slow(2 m/s) moving underwater vehicle.</description>
+
+  <maintainer email="cbn.joao@gmail.com">Joao Britto</maintainer>
+  <maintainer email="rafaelsaback@gmail.com">Rafael Saback</maintainer>
+  <author     email="cbn.joao@gmail.com">Joao Britto</author>
+  <author     email="rafaelsaback@gmail.com">Rafael Saback</author>
+
+  <license>LGPL v2 or later</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <build_depend>rock-cmake</build_depend>
+  <build_depend>pkg-config</build_depend>
+
+  <depend>boost</depend>
+  <depend>rock-types</depend>
+
+  <doc_depend>doxygen</doc_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
+
